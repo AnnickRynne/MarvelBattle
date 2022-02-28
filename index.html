@@ -19,23 +19,21 @@
         <h2>Who is the strongest?</h2>
     </header>
 
-    <!-- Rules of the game  -->
-    
+    <!-- Rules of the game and images of the 3 Marvel heroes -->
     <p>Rules of the game</p>
     
     <div id="rules">
         <div id="hulk" class="avenger">Hulk</div>
         <div id="loki" class="avenger">Loki </div>
         <div id="thor" class="avenger">Thor</div>
-      </div>
-
+    </div>
 
     <!-- 1- Buttons -->
     <div id="controls">
-        <div class="select" id="hammer"><img src="assets/images/hammer.png" width=100px height=100px alt="Thor's hammer"/></div>
-        <div class="select" id="fist"><img src="assets/images/fist.png" width=100px height=100px alt="Hulk's fist"/></div>
-        <div class="select" id="dagger"><img src="assets/images/dagger.png" width=100px height=100px alt="Loki's dagger"/></div>
-      </div>
+        <div class="select" id="hammer"><img src="assets/images/hammer.png" width=100px height=100px alt="Thor's hammer" /></div>
+        <div class="select" id="fist"><img src="assets/images/fist.png" width=100px height=100px alt="Hulk's fist" /></div>
+        <div class="select" id="dagger"><img src="assets/images/dagger.png" width=100px height=100px alt="Loki's dagger" /></div>
+    </div>
 
     <!-- 2- Choice of weapon -->
     <h3>You chose: <span id="your_choice"></span></h3>
@@ -47,11 +45,12 @@
 
 
     <!-- 4- Score-board" -->
-    <div>
-
-
+    <div class="score_board">
+        <div id="you" class="badge">YOU</div>
+        <div id="ram" class="badge">R.A.M.</div>
+        <span id="your_score">0</span> : <span id="ram_score">0</span>
     </div>
-    <script src="assets/js/app.js"></script>   
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
