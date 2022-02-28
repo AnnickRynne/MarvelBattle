@@ -1,17 +1,12 @@
 
 
-<h1 text-align="center">ONDAS LUNARES</h1>
+<h1 text-align="center">MARVEL BATTLE</h1>
 
 Click on [Marvel Battle](https://annickrynne.github.io/MarvelBattle/) to access the live project.
 
 
 # INTRODUCTION
 This app is a game based on the Rock-Paper-Scissors game. I decided to give it a twist by using three Marvel heroes (well, 2 heroes and 1 bad guy, I ought to say). 
-
-<p text-align="center">
-  <div style="text-align: center;"><img src="docs/responsive.png"/ alt="url displayed in 4 devices of different sizes"></div>
-</p>
-
 
 # EXPERIENCE (UX)
 The target audience: Mainly, adults and children who like playing games on their phones and like the Marvel movies.
