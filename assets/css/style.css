@@ -22,3 +22,43 @@ header {
     text-align: center;
     padding: 20px;
 }
+
+
+/* Styling the 3 buttons inside the Controls div */
+#controls {
+    margin-top: 2.5em;
+}
+
+.select {
+    display: inline-block;
+    border: 2px solid #20b2aa;
+    border-radius: 50%;
+    line-height: 0;
+    margin: 10px;
+    transition: all 0.3s ease;
+   
+}
+
+.select:hover {
+ background-color:#FF4500;
+ cursor: pointer;
+}
+
+img {
+      border-radius: 50%;
+      padding: 10px;
+}
+
+/* Select your weapon */
+h3 {
+    margin-top: 1em;
+    color: #FFFFFF;
+}
+
+/* Line for the result */
+#result > h4 {
+    font-size: 2em;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-top: 1.5em;
+}
