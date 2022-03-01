@@ -1,18 +1,22 @@
 // R.A.M. choice of weapon (using Math.ramdom)
 function getRamChoice() {
-    const weapons = ['hammer', 'fist', 'dagger'];
-    const randomNumber = Math.floor(Math.random() * 3);
+    let weapons = ['hammer', 'fist', 'dagger'];
+    let randomNumber = Math.floor(Math.random() * 3);
     return weapons[randomNumber];
 }
 
-function game() {
+function game(yourWeapon) {
+    let yourChoice = document.getElementById("your_choice");
+    let ramGen = document.getElementById("ram_gen");
     ramChoice = getRamChoice();
+    yourChoice.innerHTML = yourWeapon;
+    ramGen.innerHTML = ramChoice;
 }
 
 function main() {
-    const hammer_div = document.getElementById("hammer");
-    const fist_div = document.getElementById("fist");
-    const dagger_div = document.getElementById("dagger");
+    let hammer_div = document.getElementById("hammer");
+    let fist_div = document.getElementById("fist");
+    let dagger_div = document.getElementById("dagger");
     hammer_div.addEventListener('click', function () {
         game("hammer");
         console.log("test: hammer");
