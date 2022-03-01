@@ -40,17 +40,14 @@ function main() {
     let dagger_div = document.getElementById("dagger");
     hammer_div.addEventListener('click', function () {
         game("hammer");
-        console.log("test: hammer");
     })
 
     fist_div.addEventListener('click', function () {
         game("fist");
-        console.log("test: fist");
     })
 
     dagger_div.addEventListener('click', function () {
         game("dagger");
-        console.log("test: dagger");
     })
 }
 
