@@ -11,7 +11,28 @@ function game(yourWeapon) {
     ramChoice = getRamChoice();
     yourChoice.innerHTML = yourWeapon;
     ramGen.innerHTML = ramChoice;
+     switch (yourWeapon + ramChoice) {
+        case "fistdagger":
+        case "fisthammer":
+        case "daggerhammer":
+            // console.log("You win!");
+            gameResult.innerText = "You win!";
+            break;
+        case "daggerfist":
+        case "hammerfist":
+        case "hammerdagger":
+            // console.log("You lose!");
+            gameResult.innerText = "You lose!";
+            break;
+        case "hammerhammer":
+        case "fistfist":
+        case "daggerdagger":
+            // console.log("It's a draw!");
+            gameResult.innerText = "It's a draw!";
+            break;
+     }
 }
+
 
 function main() {
     let hammer_div = document.getElementById("hammer");
