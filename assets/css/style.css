@@ -56,10 +56,10 @@ h3 {
 }
 
 /* Line for the result */
-#result > h4 {
+#result {
     font-size: 2em;
     font-weight: 800;
-    color: #FFFFFF;
+    color: #FF4500;
     margin-top: 1.5em;
 }
 
