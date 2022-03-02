@@ -27,20 +27,20 @@ function getRamChoice() {
  */
 function win() {
     yourScore++;
-    console.log("you win!");
+    // console.log("you win!");
     yourScore_span.innerText = yourScore;
     gameResult.innerText = "You win!"; 
 }
 
 function lose() {
     ramScore++;
-    console.log("you lose");
+    // console.log("you lose");
     ramScore_span.innerText = ramScore;
     gameResult.innerText = "You lose";
 }
 
 function draw() {
-    console.log("It's a draw!"); 
+    // console.log("It's a draw!"); 
     gameResult.innerText = "It's a draw!";  
 }
 

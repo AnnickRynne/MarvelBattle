@@ -42,7 +42,18 @@ I chose the Marvel theme for the game so it made sense to go for a science-ficti
 
 ### Mobile wireframe:
 
-### Desktop wireframe:
+![ ](docs/mobile_wireframe.png)
+
+
+### Ipad wireframe:
+
+![ ](docs/ipad_wireframe.png)
+
+
+### Laptop wireframe:
+
+![ ](docs/laptop_wireframe.png)
+
 
 # FEATURES
  
