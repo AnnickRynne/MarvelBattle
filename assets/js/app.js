@@ -1,3 +1,7 @@
+/** 
+ * Variables (the score variables change so they have to be 'let' variables to work)
+ * 
+*/
 let yourScore = 0;
 let ramScore = 0;
 const yourChoice = document.getElementById("your_choice");
@@ -17,6 +21,10 @@ function getRamChoice() {
     return weapons[randomNumber];
 }
 
+/** 
+ * The 3 functtions below display the results for the 
+ * 3 possible outcomes: win, lose or draw:
+ */
 function win() {
     yourScore++;
     console.log("you win!")
@@ -37,9 +45,11 @@ function draw() {
 }
 
 
-
+/** 
+ * The Game function establishes and display the choices 
+ * in weapons (yourWeapon and ramChoice): 
+*/
 function game(yourWeapon) {
-
     ramChoice = getRamChoice();
     yourChoice.innerHTML = yourWeapon;
     ramGen.innerHTML = ramChoice;
@@ -68,7 +78,9 @@ function game(yourWeapon) {
      }
 }
 
-
+/**
+ * The Main 'event' function is actioned when the player clicks on a weapon
+ */
 function main() {
     let hammer_div = document.getElementById("hammer");
     let fist_div = document.getElementById("fist");
