@@ -1,3 +1,15 @@
+let yourScore = 0;
+let ramScore = 0;
+const yourChoice = document.getElementById("your_choice");
+const ramGen = document.getElementById("ram_gen");
+const yourScore_span = document.getElementById("your_score");
+const ramScore_span = document.getElementById("ram_score");
+const gameResult = document.getElementById("result");
+const hammer_div = document.getElementById("hammer");
+const fist_div = document.getElementById("fist");
+const dagger_div = document.getElementById("dagger");
+
+
 // R.A.M. choice of weapon (using Math.ramdom)
 function getRamChoice() {
     let weapons = ['hammer', 'fist', 'dagger'];
@@ -5,9 +17,29 @@ function getRamChoice() {
     return weapons[randomNumber];
 }
 
+function win() {
+    yourScore++;
+    console.log("you win!")
+    yourScore_span.innerText = yourScore;
+    gameResult.innerText = "You win!"; 
+}
+
+function lose() {
+    ramScore++;
+    console.log("you lose");
+    ramScore_span.innerText = ramScore;
+    gameResult.innerText = "You lose";
+}
+
+function draw() {
+    console.log("It's a draw!"); 
+    gameResult.innerText = "It's a draw!";  
+}
+
+
+
 function game(yourWeapon) {
-    let yourChoice = document.getElementById("your_choice");
-    let ramGen = document.getElementById("ram_gen");
+
     ramChoice = getRamChoice();
     yourChoice.innerHTML = yourWeapon;
     ramGen.innerHTML = ramChoice;
@@ -17,18 +49,21 @@ function game(yourWeapon) {
         case "daggerhammer":
             // console.log("You win!");
             gameResult.innerText = "You win!";
+            win();
             break;
         case "daggerfist":
         case "hammerfist":
         case "hammerdagger":
             // console.log("You lose!");
             gameResult.innerText = "You lose!";
+            lose();
             break;
         case "hammerhammer":
         case "fistfist":
         case "daggerdagger":
             // console.log("It's a draw!");
             gameResult.innerText = "It's a draw!";
+            draw();
             break;
      }
 }
