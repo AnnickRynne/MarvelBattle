@@ -27,7 +27,7 @@ function getRamChoice() {
  */
 function win() {
     yourScore++;
-    console.log("you win!")
+    console.log("you win!");
     yourScore_span.innerText = yourScore;
     gameResult.innerText = "You win!"; 
 }
@@ -58,21 +58,18 @@ function game(yourWeapon) {
         case "fisthammer":
         case "daggerhammer":
             // console.log("You win!");
-            gameResult.innerText = "You win!";
             win();
             break;
         case "daggerfist":
         case "hammerfist":
         case "hammerdagger":
             // console.log("You lose!");
-            gameResult.innerText = "You lose!";
             lose();
             break;
         case "hammerhammer":
         case "fistfist":
         case "daggerdagger":
             // console.log("It's a draw!");
-            gameResult.innerText = "It's a draw!";
             draw();
             break;
      }
@@ -88,14 +85,11 @@ function main() {
     hammer_div.addEventListener('click', function () {
         game("hammer");
     })
-
     fist_div.addEventListener('click', function () {
         game("fist");
     })
-
     dagger_div.addEventListener('click', function () {
         game("dagger");
     })
 }
-
 main();
