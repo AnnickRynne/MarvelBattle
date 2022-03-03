@@ -33,7 +33,7 @@ select();
 // R.A.M. choice of weapon (using Math.ramdom)
 function getRamChoice() {
     let weapons = ['hammer', 'fist', 'dagger'];
-    let randomNumber = Math.floor(Math.random() * 3);
+    let randomNumber = Math.floor(Math.random() * weapons.length);
     return weapons[randomNumber];
 }
 
