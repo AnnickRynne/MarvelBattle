@@ -18,13 +18,13 @@ const gameResult = document.getElementById("result");
     let fist_div = document.getElementById("fist");
     let dagger_div = document.getElementById("dagger");
     hammer_div.addEventListener('click', function () {
-        game("hammer");
+        runGame("hammer");
     })
     fist_div.addEventListener('click', function () {
-        game("fist");
+        runGame("fist");
     })
     dagger_div.addEventListener('click', function () {
-        game("dagger");
+        runGame("dagger");
     })
 }
 select();
@@ -65,7 +65,7 @@ function draw() {
  * The Game function establishes and display the choices 
  * in weapons (yourWeapon and ramChoice): 
 */
-function game(yourWeapon) {
+function runGame(yourWeapon) {
     ramChoice = getRamChoice();
     yourChoice.innerHTML = yourWeapon;
     ramGen.innerHTML = ramChoice;
