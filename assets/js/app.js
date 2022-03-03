@@ -9,9 +9,25 @@ const ramGen = document.getElementById("ram_gen");
 const yourScore_span = document.getElementById("your_score");
 const ramScore_span = document.getElementById("ram_score");
 const gameResult = document.getElementById("result");
-const hammer_div = document.getElementById("hammer");
-const fist_div = document.getElementById("fist");
-const dagger_div = document.getElementById("dagger");
+
+/**
+ * The Select 'event' function is actioned when the player clicks on a weapon
+ */
+ function select() {
+    let hammer_div = document.getElementById("hammer");
+    let fist_div = document.getElementById("fist");
+    let dagger_div = document.getElementById("dagger");
+    hammer_div.addEventListener('click', function () {
+        game("hammer");
+    })
+    fist_div.addEventListener('click', function () {
+        game("fist");
+    })
+    dagger_div.addEventListener('click', function () {
+        game("dagger");
+    })
+}
+select();
 
 
 // R.A.M. choice of weapon (using Math.ramdom)
@@ -75,21 +91,3 @@ function game(yourWeapon) {
      }
 }
 
-/**
- * The Main 'event' function is actioned when the player clicks on a weapon
- */
-function main() {
-    let hammer_div = document.getElementById("hammer");
-    let fist_div = document.getElementById("fist");
-    let dagger_div = document.getElementById("dagger");
-    hammer_div.addEventListener('click', function () {
-        game("hammer");
-    })
-    fist_div.addEventListener('click', function () {
-        game("fist");
-    })
-    dagger_div.addEventListener('click', function () {
-        game("dagger");
-    })
-}
-main();
