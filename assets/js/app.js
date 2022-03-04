@@ -20,12 +20,12 @@ btn.addEventListener("click", function () {
     let yourName = document.getElementById("coolname");
     if (yourName.value != "") {
         coolname.push(yourName.value);
-        // alert(coolname);
-        return coolname;
+       return coolname;
     } else {
         alert("Enter a name to start playing");
     }
 })
+
 
 /**
  * The Select 'event' function is actioned when the player clicks on a weapon

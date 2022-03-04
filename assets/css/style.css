@@ -23,6 +23,11 @@ header {
     padding: 20px;
 }
 
+/* This div is hidden until the start button is clicked */
+#game {
+    display: none; 
+    background-color:#022B3F;
+    }
 
 /* Section 1 - Buttons: Styling the 3 buttons inside the Controls div */
 #controls {
