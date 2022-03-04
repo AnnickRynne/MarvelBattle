@@ -18,6 +18,12 @@ const gameResult = document.getElementById("result");
  */
 btn.addEventListener("click", function () {
     let yourName = document.getElementById("coolname");
+    const hideGame_div = document.getElementById("game");
+    if (hideGame_div.style.display ==="none") {
+        hideGame_div.style.display = "block";
+    } else {
+        hideGame_div.style.display = "none";
+    }
     if (yourName.value != "") {
         coolname.push(yourName.value);
        return coolname;
