@@ -14,7 +14,7 @@ const ramScore_span = document.getElementById("ram_score");
 const gameResult = document.getElementById("result");
 
 /**
- * The player must first enter a name and click on the button to start playing
+ * The player's 'coolname' is registered when he/she clicks on START
  */
 btn.addEventListener("click", function () {
     let yourName = document.getElementById("coolname");
