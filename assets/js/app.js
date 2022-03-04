@@ -63,14 +63,14 @@ function getRamChoice() {
 function win() {
     yourScore++;
     yourScore_span.innerText = yourScore;
-    gameResult.innerText = "You win!";
+    gameResult.innerText = coolname + ", it's a win!";
 }
 
 // Display 'You lose'  R.A.M. computer score goes up 1 point
 function lose() {
     ramScore++;
     ramScore_span.innerText = ramScore;
-    gameResult.innerText = "You lose";
+    gameResult.innerText = coolname + " ...You lose";
 }
 
 // Display 'It's a draw!'; score-board does not change
