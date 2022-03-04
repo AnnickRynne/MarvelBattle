@@ -24,7 +24,7 @@ header {
 }
 
 
-/* Styling the 3 buttons inside the Controls div */
+/* Section 1 - Buttons: Styling the 3 buttons inside the Controls div */
 #controls {
     margin-top: 2.5em;
 }
@@ -49,13 +49,13 @@ img {
       padding: 10px;
 }
 
-/* Select your weapon */
+/* Section 2: Choice of weapon */
 h3 {
     margin-top: 1em;
     color: #FFFFFF;
 }
 
-/* Line for the result */
+/* Section 3: The result of the fight */
 #result {
     font-size: 2em;
     font-weight: 800;
@@ -64,7 +64,7 @@ h3 {
 }
 
 
-/* Styling the score board to display the results */
+/* Section 4: The score board */
 .score_board {
     border: 3px solid #FFFFFF;
     width: 200px;
