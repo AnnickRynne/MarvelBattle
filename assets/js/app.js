@@ -14,21 +14,19 @@ const ramScore_span = document.getElementById("ram_score");
 const gameResult = document.getElementById("result");
 
 /**
- * The player's 'coolname' is registered when he/she clicks on START
+ * 2 actions with the eventListener: 
+ * - The game is hidden until the player clicks on START
+ * - Therefore the player must first enter a name and click on the button to start playing
  */
-btn.addEventListener("click", function () {
+btn.addEventListener("click", function() {
     let yourName = document.getElementById("coolname");
     const hideGame_div = document.getElementById("game");
-    if (hideGame_div.style.display ==="none") {
+    if (hideGame_div.style.display = "none" && yourName.value !="") {
         hideGame_div.style.display = "block";
-    } else {
-        hideGame_div.style.display = "none";
-    }
-    if (yourName.value != "") {
         coolname.push(yourName.value);
-       return coolname;
+    return coolname;
     } else {
-        alert("Enter a name to start playing");
+    alert("Enter a name to start the game!");
     }
 })
 
