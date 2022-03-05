@@ -27,6 +27,10 @@ header {
 #game {
     display: none; 
     background-color:#022B3F;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
     }
 
 /* Section 1 - Buttons: Styling the 3 buttons inside the Controls div */
@@ -41,7 +45,6 @@ header {
     line-height: 0;
     margin: 10px;
     transition: all 0.3s ease;
-   
 }
 
 .select:hover {
@@ -100,3 +103,9 @@ h3 {
     right: -35px;
 }
 
+footer {
+    height: 75px;
+    color: #FFFFFF;
+    font-size: 0.6em;
+    margin-bottom: 20px;
+}
