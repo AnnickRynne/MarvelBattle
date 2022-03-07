@@ -9,10 +9,12 @@
 }
 
 body {
-    background-color: #022B3F;
+    /* background-color: #022B3F; */
     font-family: 'Exo 2', sans-serif;
     color: #FFFFFF;
     text-align: center;
+    background: url("../images/thor_loki_hulk.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 
