@@ -93,13 +93,13 @@ function runGame(yourWeapon) {
     ramGen.innerHTML = ramChoice;
     switch (yourWeapon + ramChoice) {
         case "fistdagger":
-        case "fisthammer":
+        case "hammerfist":
         case "daggerhammer":
             // console.log("You win!");
             win();
             break;
         case "daggerfist":
-        case "hammerfist":
+        case "fisthammer":
         case "hammerdagger":
             // console.log("You lose!");
             lose();
