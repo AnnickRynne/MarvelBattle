@@ -14,6 +14,7 @@ body {
     text-align: center;
 }
 
+
 /* HEADER*/
 header {
     background-color:#D5E8F8;
@@ -23,14 +24,70 @@ header {
     padding: 20px;
 }
 
+/* Register: Player enters a name and click on START */
+.register {
+    background-color:#022B3F;
+    /* background-color: rgba(2, 43, 63, 0.8); */
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    padding: 1em;
+}
+
+.register > h2 {
+    margin: 20px 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.input {
+    max-width: 300px;
+    display: inline-block;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+#coolname {
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+    padding: 5px;
+    color:#022B3F; 
+}
+
+ #button {
+    background-color:#324960;
+    color: #fafafa;
+    width: 75px;
+    height: 35px;
+    border:#fafafa 1px solid;
+    border-radius: 8px;
+    padding-top: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight:800;
+    display: inline-block;
+}
+
+#button:hover {
+    color: #022B3F;
+    background-color:  #FF4500;
+}
+
 /* This div is hidden until the start button is clicked */
 #game {
     display: none; 
     background-color:#022B3F;
     border: 3px solid #FFFFFF;
     border-radius: 10px;
-    width: 90%;
-    margin: 20px auto;
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
     }
 
 /* Section 1 - Buttons: Styling the 3 buttons inside the Controls div */
@@ -115,25 +172,25 @@ footer {
 /* MEDIA-QUERIES */
 
 @media(min-width: 576px) {
-    #game {
+    #game, .register {
     width: 75%;
     }  
 }
 
 @media (min-width: 768px) {
-    #game {
+    #game, .register {
         width: 65%;
         }
    }
 
 @media (min-width: 992px) {
-    #game {
+    #game, .register {
         width: 55%;
         }
 }
 
 @media (min-width: 1480px) {
-    #game {
+    #game, .register {
         width: 40%;
         }
    }
