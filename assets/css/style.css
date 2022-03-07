@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 
-/* Styling the header */
+/* HEADER*/
 header {
     background-color:#D5E8F8;
     font-family: 'Orbitron', sans-serif;
@@ -103,9 +103,37 @@ h3 {
     right: -35px;
 }
 
+/* FOOTER */
 footer {
     height: 75px;
     color: #FFFFFF;
     font-size: 0.6em;
     margin-bottom: 20px;
 }
+
+
+/* MEDIA-QUERIES */
+
+@media(min-width: 576px) {
+    #game {
+    width: 75%;
+    }  
+}
+
+@media (min-width: 768px) {
+    #game {
+        width: 65%;
+        }
+   }
+
+@media (min-width: 992px) {
+    #game {
+        width: 55%;
+        }
+}
+
+@media (min-width: 1480px) {
+    #game {
+        width: 40%;
+        }
+   }
