@@ -22,7 +22,7 @@ body {
 header {
     /* background-color: #FFFFFF; */
     font-family: 'Orbitron', sans-serif;
-    color: #022B3F;
+    color:#022B3F;
     text-align: center;
     padding: 20px;
 }
@@ -33,8 +33,8 @@ header > h2 {
 
 /* 1- Register: Player enters a name and click on START */
 .register {
-    background-color: #022B3F;
-    /* background-color: rgba(2, 43, 63, 0.8); */
+    /* background-color: #022B3F; */
+    background-color: rgba(2, 43, 63, 0.8);
     border: 3px solid #FFFFFF;
     border-radius: 10px;
     width: 80%;
@@ -191,7 +191,6 @@ footer {
     #game,
     .register {
         width: 75%;
-        max-height: 850px;
     }
 }
 
@@ -200,7 +199,6 @@ footer {
     #game,
     .register {
         width: 65%;
-        max-height: 700px;
     }
 }
 
@@ -209,7 +207,6 @@ footer {
     #game,
     .register {
         width: 55%;
-        max-height: 650px;    }
 }
 
 @media (min-width: 1480px) {
