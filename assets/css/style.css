@@ -136,8 +136,8 @@ h3 {
 }
 
 /* 4- The result of the fight */
-#result {
-    font-size: 2em;
+.result_span, #result {
+    font-size: 1em;
     font-weight: 800;
     color: #FF4500;
     margin-top: 1.5em;
