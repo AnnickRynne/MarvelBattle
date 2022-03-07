@@ -14,21 +14,13 @@
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
         <h1>Marvel Battle</h1>
         <h2>THOR vs HULK vs LOKI: Who is the strongest?</h2>
     </header>
 
-    <!-- Rules of the game and images of the 3 Marvel heroes
-    <p>Rules of the game</p>
-
-    <div id="rules">
-        <div id="hulk" class="avenger">Hulk</div>
-        <div id="loki" class="avenger">Loki </div>
-        <div id="thor" class="avenger">Thor</div>
-    </div> -->
-
-    <!-- Register: Player enters a name and click on START -->
+    <!-- 1- Register: Player enters a name and click on START -->
     <div class="register">
         <h2>Can you defeat R.A.M.?</h2>
         <div class="input">
@@ -40,18 +32,20 @@
     </div>
 
     <div id="game">
-        <!-- 1- Rules and Controls -->
+        <!-- 2- Rules and Controls -->
         <h3 id="rules_h3">The Rules</h3>
-            <br>
-            <p>
-                This game is inspired from the Avengers movies.
-                Thor and Loki are brothers and both are gods. Hulk is a 'Earthian'. Thor has a very powerful weapon: his hammer.
-                He can defeat Hulk with it. Loki can use his dagger very deviously against Thor.
-                Hulk is human, but he gets stronger and stronger as he gets angrier and Loki failed to beat him. This game is like
-                "Rock-Paper-Scissors"
-                and you are playing against R.A.M. the computer.
-                Just pick one of the 3 weapons and see if you win!
-            </p>
+        <br>
+        <p>
+            This game is inspired from the Avengers movies.
+            Thor and Loki are brothers and both are gods. Hulk is a 'Earthian'. Thor has a very powerful weapon: his
+            hammer.
+            He can defeat Hulk with it. Loki can use his dagger very deviously against Thor.
+            Hulk is human, but he gets stronger and stronger as he gets angrier and Loki failed to beat him. This game
+            is like
+            "Rock-Paper-Scissors"
+            and you are playing against R.A.M. the computer.
+            Just pick one of the 3 weapons and see if you win!
+        </p>
         <div id="controls">
             <div class="select" id="hammer"><img src="assets/images/hammer.png" width="100" height="100"
                     alt="Thor's hammer" /></div>
@@ -62,16 +56,16 @@
                     alt="Loki's dagger" /></div>
         </div>
 
-        <!-- 2- Choice of weapon -->
+        <!-- 3- Choice of weapon -->
         <h3>You chose: <span id="your_choice"></span></h3>
         <h3>R.A.M. chose: <span id="ram_gen"></span></h3>
 
 
-        <!-- 3- Result-->
+        <!-- 4- Result-->
         <h3><span id="result"></span></h3>
 
 
-        <!-- 4- Score-board" -->
+        <!-- 5- Score-board" -->
         <div class="score_board">
             <div id="you" class="badge">YOU</div>
             <div id="ram" class="badge">R.A.M.</div>
