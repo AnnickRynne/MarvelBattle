@@ -1,6 +1,7 @@
 /* Global style */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Orbitron:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,35 +9,35 @@
 }
 
 body {
-    background-color:#022B3F;
+    background-color: #022B3F;
     font-family: 'Exo 2', sans-serif;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: center;
 }
 
 
 /* HEADER*/
 header {
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     font-family: 'Orbitron', sans-serif;
-    color:#022B3F;
+    color: #022B3F;
     text-align: center;
     padding: 20px;
 }
 
 /* Register: Player enters a name and click on START */
 .register {
-    background-color:#022B3F;
+    background-color: #022B3F;
     /* background-color: rgba(2, 43, 63, 0.8); */
     border: 3px solid #FFFFFF;
     border-radius: 10px;
     width: 80%;
     height: 250px;
     margin: 20px auto;
-    padding: 1em;
+    padding: 1.5em;
 }
 
-.register > h2 {
+.register>h2 {
     margin: 20px 0;
     font-family: 'Orbitron', sans-serif;
 }
@@ -46,7 +47,8 @@ header {
     display: inline-block;
 }
 
-label, input {
+label,
+input {
     display: flex;
     flex-direction: column;
 }
@@ -56,39 +58,47 @@ label, input {
     height: 25px;
     margin-top: 20px;
     padding: 5px;
-    color:#022B3F; 
+    color: #022B3F;
 }
 
- #button {
-    background-color:#324960;
+#button {
+    background-color: #324960;
     color: #fafafa;
     width: 75px;
     height: 35px;
-    border:#fafafa 1px solid;
+    border: #fafafa 1px solid;
     border-radius: 8px;
     padding-top: 10px;
     margin: 10px auto;
     text-align: center;
     font-size: 1em;
-    font-weight:800;
+    font-weight: 800;
     display: inline-block;
 }
 
 #button:hover {
     color: #022B3F;
-    background-color:  #FF4500;
+    background-color: #FF4500;
 }
 
-/* This div is hidden until the start button is clicked */
+/* This div (Rules & Controls) is hidden until the start button is clicked */
 #game {
-    display: none; 
-    background-color:#022B3F;
+    display: none;
+    background-color: #022B3F;
     border: 3px solid #FFFFFF;
     border-radius: 10px;
     width: 80%;
     margin: 2em auto;
-    padding: 1em;
-    }
+    padding: 1.5em;
+}
+
+#rules_h3 {
+    line-height: 2em;
+}
+
+#game > p {
+    line-height: 1.5em;
+}
 
 /* Section 1 - Buttons: Styling the 3 buttons inside the Controls div */
 #controls {
@@ -105,13 +115,13 @@ label, input {
 }
 
 .select:hover {
- background-color:#FF4500;
- cursor: pointer;
+    background-color: #FF4500;
+    cursor: pointer;
 }
 
 img {
-      border-radius: 50%;
-      padding: 10px;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 /* Section 2: Choice of weapon */
@@ -172,25 +182,33 @@ footer {
 /* MEDIA-QUERIES */
 
 @media(min-width: 576px) {
-    #game, .register {
-    width: 75%;
-    }  
+
+    #game,
+    .register {
+        width: 75%;
+    }
 }
 
 @media (min-width: 768px) {
-    #game, .register {
+
+    #game,
+    .register {
         width: 65%;
-        }
-   }
+    }
+}
 
 @media (min-width: 992px) {
-    #game, .register {
+
+    #game,
+    .register {
         width: 55%;
-        }
+    }
 }
 
 @media (min-width: 1480px) {
-    #game, .register {
+
+    #game,
+    .register {
         width: 40%;
-        }
-   }
+    }
+}
