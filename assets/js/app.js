@@ -39,13 +39,13 @@ function select() {
     let fist_div = document.getElementById("fist");
     let dagger_div = document.getElementById("dagger");
     hammer_div.addEventListener('click', function () {
-        runGame("hammer");
+        runGame("Hammer");
     })
     fist_div.addEventListener('click', function () {
-        runGame("fist");
+        runGame("Fist");
     })
     dagger_div.addEventListener('click', function () {
-        runGame("dagger");
+        runGame("Dagger");
     })
 }
 select();
@@ -53,7 +53,7 @@ select();
 
 // R.A.M. choice of weapon (using Math.ramdom)
 function getRamChoice() {
-    let weapons = ['hammer', 'fist', 'dagger'];
+    let weapons = ['Hammer', 'Fist', 'Dagger'];
     let randomNumber = Math.floor(Math.random() * weapons.length);
     return weapons[randomNumber];
 }
@@ -92,21 +92,21 @@ function runGame(yourWeapon) {
     yourChoice.innerHTML = yourWeapon;
     ramGen.innerHTML = ramChoice;
     switch (yourWeapon + ramChoice) {
-        case "fistdagger":
-        case "hammerfist":
-        case "daggerhammer":
+        case "FistDagger":
+        case "HammerFist":
+        case "DaggerHammer":
             // console.log("You win!");
             win();
             break;
-        case "daggerfist":
-        case "fisthammer":
-        case "hammerdagger":
+        case "DaggerFist":
+        case "FistHammer":
+        case "HammerDagger":
             // console.log("You lose!");
             lose();
             break;
-        case "hammerhammer":
-        case "fistfist":
-        case "daggerdagger":
+        case "HammerHammer":
+        case "FistFist":
+        case "DaggerDagger":
             // console.log("It's a draw!");
             draw();
             break;
