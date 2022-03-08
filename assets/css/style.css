@@ -8,12 +8,12 @@
     box-sizing: 0;
 }
 
+/* BODY & TITLES */
 body {
-    /* background-color: #022B3F; */
     font-family: 'Exo 2', sans-serif;
     color: #FFFFFF;
     text-align: center;
-    background: url("../images/thor_loki_hulk.jpg") no-repeat top fixed;
+    background: url("../images/thor_loki_hulk.jpg") center center fixed;
     background-size: cover;
 }
 
@@ -34,26 +34,27 @@ h3 {
 
 /* HEADER*/
 header {
-    /* background-color: #FFFFFF; */
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     color: #022B3F;
     text-align: center;
-    padding: 20px;
-    
-}
-
-/* 1- Register: Player enters a name and click on START */
-.register {
-    /* background-color: #022B3F; */
-    background-color: rgba(2, 43, 63, 0.8);
-    border: 3px solid #FFFFFF;
     border-radius: 10px;
     width: 80%;
     margin: 20px auto;
     padding: 1.5em;
 }
 
-.register>h2 {
+/* 1- Register: Player enters a name and click on START */
+#register {
+    background-color: rgba(2, 43, 63, 0.8);
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 1.5em;
+    display: block;
+}
+
+#register>h2 {
     margin: 20px 0;
     font-family: 'Orbitron', sans-serif;
 }
@@ -82,7 +83,6 @@ input {
     color: #fafafa;
     width: 75px;
     height: 35px;
-    border: #fafafa 1px solid;
     border-radius: 8px;
     padding-top: 10px;
     margin: 10px auto;
@@ -196,34 +196,33 @@ footer {
 
 @media(min-width: 576px) {
 
-    #game,
-    .register {
+    header, #game,
+    #register {
         width: 75%;
     }
 }
 
 @media (min-width: 768px) {
 
-    #game,
-    .register {
+    header, #game,
+    #register {
         width: 65%;
     }
 }
 
 @media (min-width: 992px) {
 
-    #game,
-    .register {
+    header, #game,
+    #register {
         width: 55%;
     }
 }
 
     @media (min-width: 1480px) {
         header {
-            background-color: transparent;
         }
-        #game,
-        .register {
+        header, #game,
+        #register {
             width: 40%;
         }
     }
