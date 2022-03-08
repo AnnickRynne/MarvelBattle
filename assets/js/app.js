@@ -25,7 +25,7 @@ const hideRegister_sect = document.getElementById("register");
  * - Therefore the player must first enter a name and click on the button to start playing
  */
 btn.addEventListener("click", function () {
-    if (hideGame_sect.style.display = "none" && yourName.value != "") {
+    if ((hideGame_sect.style.display = "none" && yourName.value != "")) {
         hideGame_sect.style.display = "block";
         hideRegister_sect.style.display ="none";
         coolname.push(yourName.value);
@@ -33,25 +33,22 @@ btn.addEventListener("click", function () {
     } else {
         alert("Enter a name to start the game!");
     }
-})
+});
 
 
 /**
  * The Select 'event' function is actioned when the player clicks on a weapon
  */
 function select() {
-    // let hammer_div = document.getElementById("hammer");
-    // let fist_div = document.getElementById("fist");
-    // let dagger_div = document.getElementById("dagger");
     hammer_div.addEventListener('click', function () {
         runGame("Hammer");
-    })
+    });
     fist_div.addEventListener('click', function () {
         runGame("Fist");
-    })
+    });
     dagger_div.addEventListener('click', function () {
         runGame("Dagger");
-    })
+    });
 }
 select();
 
@@ -93,7 +90,7 @@ function draw() {
  * in weapons (yourWeapon and ramChoice): 
  */
 function runGame(yourWeapon) {
-    ramChoice = getRamChoice();
+    let ramChoice = getRamChoice();
     yourChoice.innerHTML = yourWeapon;
     ramGen.innerHTML = ramChoice;
     switch (yourWeapon + ramChoice) {
