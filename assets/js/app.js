@@ -4,14 +4,20 @@
  */
 let yourScore = 0;
 let ramScore = 0;
-let btn = document.getElementById("button");
 let coolname = [];
+let yourName = document.getElementById("coolname");
 
 const yourChoice = document.getElementById("your_choice");
 const ramGen = document.getElementById("ram_gen");
 const yourScore_span = document.getElementById("your_score");
 const ramScore_span = document.getElementById("ram_score");
 const gameResult = document.getElementById("result");
+const hammer_div = document.getElementById("hammer");
+const fist_div = document.getElementById("fist");
+const dagger_div = document.getElementById("dagger");
+const btn = document.getElementById("button");
+const hideGame_div = document.getElementById("game");
+const hideRegister_div = document.getElementById("register");
 
 /**
  * 2 actions with the eventListener: 
@@ -19,9 +25,6 @@ const gameResult = document.getElementById("result");
  * - Therefore the player must first enter a name and click on the button to start playing
  */
 btn.addEventListener("click", function () {
-    let yourName = document.getElementById("coolname");
-    const hideGame_div = document.getElementById("game");
-    const hideRegister_div = document.getElementById("register");
     if (hideGame_div.style.display = "none" && yourName.value != "") {
         hideGame_div.style.display = "block";
         hideRegister_div.style.display ="none";
@@ -37,9 +40,9 @@ btn.addEventListener("click", function () {
  * The Select 'event' function is actioned when the player clicks on a weapon
  */
 function select() {
-    let hammer_div = document.getElementById("hammer");
-    let fist_div = document.getElementById("fist");
-    let dagger_div = document.getElementById("dagger");
+    // let hammer_div = document.getElementById("hammer");
+    // let fist_div = document.getElementById("fist");
+    // let dagger_div = document.getElementById("dagger");
     hammer_div.addEventListener('click', function () {
         runGame("Hammer");
     })
