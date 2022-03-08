@@ -43,7 +43,7 @@ header {
     padding: 1.5em;
 }
 
-/* 1- Register: Player enters a name and click on START */
+/* REGISTER SECTION: Player enters a name and click on START */
 #register {
     background-color: rgba(2, 43, 63, 0.8);
     border: 3px solid #FFFFFF;
@@ -97,7 +97,7 @@ input {
     background-color: #C3B179;
 }
 
-/* 2- GAME: contains the Rules & Controls. The Game div is hidden until the START button is clicked */
+/* GAME SECTION: contains the Rules & Controls. The Game div is hidden until the START button is clicked */
 #game {
     display: none;
     background-color: #022B3F;
@@ -136,13 +136,13 @@ img {
     padding: 10px;
 }
 
-/* 3- Choice of weapon */
+/* Choice of weapon */
 h3 {
     margin-top: 1em;
     color: #FFFFFF;
 }
 
-/* 4- The result of the fight */
+/* The result of the fight */
 .result_span,
 #result {
     font-size: 1em;
@@ -152,7 +152,7 @@ h3 {
 }
 
 
-/* 5- The Score-board */
+/* The Score-board */
 .score_board {
     border: 3px solid #FFFFFF;
     width: 200px;

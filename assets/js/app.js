@@ -16,8 +16,8 @@ const hammer_div = document.getElementById("hammer");
 const fist_div = document.getElementById("fist");
 const dagger_div = document.getElementById("dagger");
 const btn = document.getElementById("button");
-const hideGame_div = document.getElementById("game");
-const hideRegister_div = document.getElementById("register");
+const hideGame_sect = document.getElementById("game");
+const hideRegister_sect = document.getElementById("register");
 
 /**
  * 2 actions with the eventListener: 
@@ -25,9 +25,9 @@ const hideRegister_div = document.getElementById("register");
  * - Therefore the player must first enter a name and click on the button to start playing
  */
 btn.addEventListener("click", function () {
-    if (hideGame_div.style.display = "none" && yourName.value != "") {
-        hideGame_div.style.display = "block";
-        hideRegister_div.style.display ="none";
+    if (hideGame_sect.style.display = "none" && yourName.value != "") {
+        hideGame_sect.style.display = "block";
+        hideRegister_sect.style.display ="none";
         coolname.push(yourName.value);
         return coolname;
     } else {
