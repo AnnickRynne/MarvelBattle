@@ -13,7 +13,7 @@ body {
     font-family: 'Exo 2', sans-serif;
     color: #FFFFFF;
     text-align: center;
-    background: url("../images/thor_loki_hulk.jpg") no-repeat center center fixed;
+    background: url("../images/thor_loki_hulk.jpg") no-repeat top fixed;
     background-size: cover;
 }
 
@@ -35,9 +35,11 @@ h3 {
 /* HEADER*/
 header {
     /* background-color: #FFFFFF; */
+    background-color: rgba(255, 255, 255, 0.7);
     color: #022B3F;
     text-align: center;
     padding: 20px;
+    
 }
 
 /* 1- Register: Player enters a name and click on START */
@@ -214,9 +216,12 @@ footer {
     .register {
         width: 55%;
     }
+}
 
     @media (min-width: 1480px) {
-
+        header {
+            background-color: transparent;
+        }
         #game,
         .register {
             width: 40%;
