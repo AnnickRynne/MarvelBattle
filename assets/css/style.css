@@ -17,18 +17,27 @@ body {
     background-size: cover;
 }
 
+h1 {
+    letter-spacing: 3px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h3 {
+    letter-spacing: 1.5px;
+    font-family: 'Orbitron', sans-serif;
+}
 
 /* HEADER*/
 header {
     /* background-color: #FFFFFF; */
-    font-family: 'Orbitron', sans-serif;
-    color:#022B3F;
+    color: #022B3F;
     text-align: center;
     padding: 20px;
-}
-
-header > h2 {
-    font-size: 16px;
 }
 
 /* 1- Register: Player enters a name and click on START */
@@ -83,7 +92,7 @@ input {
 
 #button:hover {
     color: #022B3F;
-    background-color: #FF4500;
+    background-color: #C3B179;
 }
 
 /* 2- GAME: contains the Rules & Controls. The Game div is hidden until the START button is clicked */
@@ -97,10 +106,6 @@ input {
     padding: 1.5em;
 }
 
-#rules_h3 {
-    line-height: 2em;
-}
-
 #game>p {
     line-height: 1.5em;
 }
@@ -112,7 +117,7 @@ input {
 
 .select {
     display: inline-block;
-    border: 2px solid #20b2aa;
+    border: 2px solid #C3B179;
     border-radius: 50%;
     line-height: 0;
     margin: 10px;
@@ -136,7 +141,8 @@ h3 {
 }
 
 /* 4- The result of the fight */
-.result_span, #result {
+.result_span,
+#result {
     font-size: 1em;
     font-weight: 800;
     color: #FF4500;
@@ -207,12 +213,12 @@ footer {
     #game,
     .register {
         width: 55%;
-}
-
-@media (min-width: 1480px) {
-
-    #game,
-    .register {
-        width: 40%;
     }
-}
+
+    @media (min-width: 1480px) {
+
+        #game,
+        .register {
+            width: 40%;
+        }
+    }
