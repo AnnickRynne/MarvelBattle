@@ -110,6 +110,7 @@ input {
 
 #game>p {
     line-height: 1.5em;
+    margin-top: 2em;
 }
 
 /* Buttons: Styling the 3 buttons inside the Controls div */
@@ -147,18 +148,16 @@ h3 {
 #result {
     font-size: 1em;
     font-weight: 800;
-    color: #FF4500;
     margin-top: 1.5em;
 }
 
 
 /* The Score-board */
 .score_board {
-    border: 3px solid #FFFFFF;
+    border: 3px solid #FF4500;
     width: 200px;
     margin: 30px auto;
     font-size: 2em;
-    color: #FF4500;
     border-radius: 10px;
     padding: 15px 20px;
     position: relative;
@@ -193,36 +192,33 @@ footer {
 
 
 /* MEDIA-QUERIES */
-
+/* To fit on Ipads and Tablets */
 @media(min-width: 576px) {
-
     header, #game,
     #register {
         width: 75%;
     }
 }
-
+/* To fit on small screens, laptops  */
 @media (min-width: 768px) {
-
     header, #game,
     #register {
         width: 65%;
     }
 }
 
+/* To fit desktop and large screens */
 @media (min-width: 992px) {
-
     header, #game,
     #register {
         width: 55%;
     }
 }
 
-    @media (min-width: 1480px) {
-        header {
-        }
-        header, #game,
-        #register {
-            width: 40%;
-        }
+/* To fit extra large screens, TV */
+@media (min-width: 1480px) {
+    header, #game,
+    #register {
+        width: 40%;
     }
+}
