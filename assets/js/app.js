@@ -21,8 +21,10 @@ const gameResult = document.getElementById("result");
 btn.addEventListener("click", function () {
     let yourName = document.getElementById("coolname");
     const hideGame_div = document.getElementById("game");
+    const hideRegister_div = document.getElementById("register");
     if (hideGame_div.style.display = "none" && yourName.value != "") {
         hideGame_div.style.display = "block";
+        hideRegister_div.style.display ="none";
         coolname.push(yourName.value);
         return coolname;
     } else {
