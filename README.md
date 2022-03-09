@@ -10,8 +10,6 @@ This application is a game based on the Rock-Paper-Scissors game. I decided to g
    - Thor > Hulk but < Loki
    - Hulk > Loki but < Thor
    - Loki > Thor but < Hulk
-And those extracts from the movies:
-   
 
 Of course, the above is very debatable. I based my research on the following articles, mostly found on the Screenrant website: 
 
@@ -20,9 +18,9 @@ Of course, the above is very debatable. I based my research on the following art
  - [Loki Names One Avenger Strong Enough To Kill Thor (And It's Not Hulk)](https://screenrant.com/loki-avenger-kill-thor-hercules-not-hulk/)
 
  Finally, some images from the movies:
- - [Hulk vs Loki - "Puny God"- Hulk Smashing Loki - The Avengers | Movie CLIP HD](https://www.youtube.com/watch?v=31ZjnrHR8EA)
+ - [Hulk vs Loki - "Puny God"- Hulk Smashing Loki - The Avengers 2017 | Movie CLIP HD](https://www.youtube.com/watch?v=31ZjnrHR8EA)
 
-
+- [Thor vs Hulk - Fight Scene - The Avengers (2012) Movie Clip HD](https://www.youtube.com/watch?v=SLD9xzJ4oeU)
 
 <p text-align="center">
   <div style="text-align: center;"><img src="docs/responsive.png"/ alt="url displayed in 4 devices of different sizes"></div>
@@ -46,15 +44,20 @@ The target audience: Mainly, adults and children who like playing games on their
 
 ## Design
 
-As the game is based on Marvel characters, I chose a science-fiction/Avengers look. The 'wallpaper' background image sets the mood. 
+As the game is based on Marvel characters, I chose a science-fiction/Avengers look. 
 
 1. Colour Scheme
-
+   I picked the colors from the background: a dark blue, hints of orange and greeny-beige, constrating with white (for accessibility reasons). 
+ <div style="text-align: center;"> 
+ <img src="docs/colors.png" alt="color palette for Marvel Battle - dark blue, orange, white, beige">
+ </div>
 2. Typography
-
+   I wanted fonts that looked futuristic.  I picked Orbitron for titles and Exo for the text. These fonts were suggested in this site:
+   [25+ Best Sci-Fi and Techno Fonts for Futuristic Designs](https://superdevresources.com/techno-sci-fi-fonts/)
    
 3. Imagery
-
+The 'wallpaper' image I chose for the background consists of two merged illustrations: Hulk at the front and Thor fighting with Loki at the back). The image sets the mood: They are fighting in a dramatic and dark environment. The illustrations are based on the Avengers movies (and actors). 
+The 3 buttons in the 'Controls' div of the Game section are images representing the weapons: the game "rock-paper-scissors" is almost always represented by graphics (hand gestures).
 ## Wireframes
 
 ### Mobile wireframe:
