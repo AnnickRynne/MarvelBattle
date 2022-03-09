@@ -47,18 +47,24 @@ The target audience: Mainly, adults and children who like playing games on their
 As the game is based on Marvel characters, I chose a science-fiction/Avengers look. 
 
 1. Colour Scheme
+
    I picked the colors from the background: a dark blue, hints of orange and greeny-beige, constrating with white (for accessibility reasons). 
  <div style="text-align: center;"> 
  <img src="docs/colors.png" alt="color palette for Marvel Battle - dark blue, orange, white, beige">
  </div>
+
 2. Typography
+
    I wanted fonts that looked futuristic.  I picked Orbitron for titles and Exo for the text. These fonts were suggested in this site:
    [25+ Best Sci-Fi and Techno Fonts for Futuristic Designs](https://superdevresources.com/techno-sci-fi-fonts/)
-   
+
 3. Imagery
+
 The 'wallpaper' image I chose for the background consists of two merged illustrations: Hulk at the front and Thor fighting with Loki at the back). The image sets the mood: They are fighting in a dramatic and dark environment. The illustrations are based on the Avengers movies (and actors). 
 The 3 buttons in the 'Controls' div of the Game section are images representing the weapons: the game "rock-paper-scissors" is almost always represented by graphics (hand gestures).
+
 ## Wireframes
+I kept the design very simple as it is a simple game, almost intuitive: Like all 'rock-paper-scissors' game apps, it needs 3 buttons to play and a score-board, and that's about it. I explain the rules at the top. The 'register' section was added later. 
 
 ### Mobile wireframe:
 
