@@ -6,30 +6,47 @@ Click on [Marvel Battle](https://annickrynne.github.io/MarvelBattle/) to access 
 
 
 # INTRODUCTION
-This app is a game based on the Rock-Paper-Scissors game. I decided to give it a twist by using three Marvel heroes (well, 2 heroes and 1 bad guy, I ought to say). 
+This application is a game based on the Rock-Paper-Scissors game. I decided to give it a twist by using three Marvel heroes (well, 2 heroes and 1 bad guy, I ought to say!). Based on the Avengers movies, I decided that
+   - Thor > Hulk but < Loki
+   - Hulk > Loki but < Thor
+   - Loki > Thor but < Hulk
+And those extracts from the movies:
+   
+
+Of course, the above is very debatable. I based my research on the following articles, mostly found on the Screenrant website: 
+
+- [Hulk vs Thor: Who the Most Powerful Was in the Avengers 2012](https://screenrant.com/avengers-2012-movie-hulk-thor-most-powerful-reason/)
+ - [10 Times Loki Proved He Was The Strongest Asgardian](https://www.cbr.com/loki-strongest-asgardian-mcu/)
+ - [Loki Names One Avenger Strong Enough To Kill Thor (And It's Not Hulk)](https://screenrant.com/loki-avenger-kill-thor-hercules-not-hulk/)
+
+ Finally, some images from the movies:
+ - [Hulk vs Loki - "Puny God"- Hulk Smashing Loki - The Avengers | Movie CLIP HD](https://www.youtube.com/watch?v=31ZjnrHR8EA)
+
+
+
+<p text-align="center">
+  <div style="text-align: center;"><img src="docs/responsive.png"/ alt="url displayed in 4 devices of different sizes"></div>
+</p>
 
 # EXPERIENCE (UX)
 The target audience: Mainly, adults and children who like playing games on their phones and like the Marvel movies.
 
 ## User Stories
 1. First Time Visitor Goals
-
    - I want the rules to be easy to grasp (is this based on Rock Paper Scissors?)
    - I want to know my score against the computer
 
 2. Returning Visitor Goals
-
    - I want to play again because I like the graphics
    - I want to get a higher score (although I'm aware it's based on chance)
- 
-3. Frequent User Goals
 
+3. Frequent User Goals
    - I want to see if there is any added features
-   - I'm a fan of the Avengers, so who REALLY is the strongest Marvel character? I want more information
+
 
 ## Design
 
-I chose the Marvel theme for the game so it made sense to go for a science-fiction/Avengers look. 
+As the game is based on Marvel characters, I chose a science-fiction/Avengers look. The 'wallpaper' background image sets the mood. 
 
 1. Colour Scheme
 

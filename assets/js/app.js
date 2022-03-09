@@ -5,7 +5,7 @@
 let yourScore = 0;
 let ramScore = 0;
 let coolname = [];
-let yourName = document.getElementById("coolname");
+
 
 const yourChoice = document.getElementById("your_choice");
 const ramGen = document.getElementById("ram_gen");
@@ -18,6 +18,7 @@ const dagger_div = document.getElementById("dagger");
 const btn = document.getElementById("button");
 const hideGame_sect = document.getElementById("game");
 const hideRegister_sect = document.getElementById("register");
+const yourName = document.getElementById("coolname");
 
 /**
  * 2 actions with the eventListener: 
