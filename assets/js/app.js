@@ -1,4 +1,5 @@
 /** 
+ * Code credits (2 links in the ReadMe):Mostly, Web Tutorial- JavaScript, HTML, CSS - Rock Paper Scissors Game
  * Variables (the score variables change so they have to be 'let' variables to work)
  * 
  */
