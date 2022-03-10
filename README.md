@@ -27,7 +27,7 @@ Of course, the above is very debatable. I based my research on the following art
 </p>
 
 # EXPERIENCE (UX)
-The target audience: Mainly, adults and children who like playing games on their phones and like the Marvel movies.
+The target audience: Mainly, adults and children who like playing games on their phones, fans of the Marvel movies, fans of the Marvel cartoon strips.
 
 ## User Stories
 1. First Time Visitor Goals
@@ -60,8 +60,9 @@ As the game is based on Marvel characters, I chose a science-fiction/Avengers lo
 
 3. Imagery
 
-The 'wallpaper' image I chose for the background consists of two merged illustrations: Hulk at the front and Thor fighting with Loki at the back). The image sets the mood: They are fighting in a dramatic and dark environment. The illustrations are based on the Avengers movies (and actors). 
-The 3 buttons in the 'Controls' div of the Game section are images representing the weapons: the game "rock-paper-scissors" is almost always represented by graphics (hand gestures).
+- The 'wallpaper' image I chose for the background consists of two merged illustrations: Hulk at the front and Thor fighting with Loki at the back). The image sets the mood: They are fighting in a dramatic and dark environment. The illustrations are based on the Avengers movies (and actors). 
+- The 3 buttons in the 'Controls' div of the Game section are images representing the weapons: the game "rock-paper-scissors" is almost always represented by graphics (hand gestures).
+- The image in the background is a striking feature: I used opaque backgrounds for the content (header/register/footer) so that the image can still be visible and enjoyed.
 
 ## Wireframes
 I kept the design very simple as it is a simple game, almost intuitive: Like all 'rock-paper-scissors' game apps, it needs 3 buttons to play and a score-board, and that's about it. I explain the rules at the top. The 'register' section was added later. 
@@ -82,32 +83,40 @@ I kept the design very simple as it is a simple game, almost intuitive: Like all
 
 
 # FEATURES
- 
+ When you open the application, you see 3 sections. The header and the footer remain visible during the game, but the game section is only visible when you click on START after having registered a name. 
 
 ## Header
+At first, I'd named the game 'Avengers Battle', but was pointed out that Loki wasn't an Avenger! So, it became 'Marvel Battle'. Thor vs Hulk vs Loki hints at a rock vs paper vs scissors semantically. Also, you'll see from my sources that the articles and YouTube videos of the fights use 'Loki vs Thor' for example. 
 
 ![ ](docs/header.png)
 
 
 ## Section 1: Register
+- This section has a title: Defeating the 'computer' didn't sound very scary, so I called it R.A.M. (Ramdom Access Memory, which is how the computer makes its choices in the game!). For the fans of science-fiction, it's also a hint to H.A.L. (Heuristically programmed ALgorithmic computer in the movie '2001: A Space Odyssey). For those who don't know H.A.L., R.A.M. sounds mysterious and more powerful in any case.
+
 ![ ](docs/register.png)
+
+- The player is invited to enter ANY name, just for fun, but it is required to start the game. Then, of course, you have a START button. Once clicked, it opens the Game section. An alert is triggered if the player doesn't enter a name first:
+
+![ ](docs/alert.png)
 
 
 ## Section 2: Game
-![ ](docs/game.png)
+
 ![ ](docs/playing.png)
 
-# Div 1 - Buttons
+# Div 1 - Controls
+![ ](docs/controls.png)
 
 # Div 2 - Choice of weapon
-
+![ ](docs/.png)
 # Div 3 - Result
-
+![ ](docs/result.png)
 # Div 4 - Score Board
-
+![ ](docs/scoreboard.png)
 
 ## Footer
-
+![ ](docs/footer.png)
 
 ## Future features
 
@@ -134,6 +143,7 @@ I kept the design very simple as it is a simple game, almost intuitive: Like all
 # TESTING
 
 # ACCESSIBILITY
+![ ](docs/wave.png)
 
 # DEPLOYMENT
 This site was deployed to GitHub pages as per the following steps:<br>
