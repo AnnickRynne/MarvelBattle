@@ -184,16 +184,23 @@ h3 {
 /* FOOTER */
 footer {
     height: 75px;
-    color: #FFFFFF;
     font-size: 0.8em;
+    font-weight:800px;
     margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #022B3F;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    margin: 2em auto;
+    padding: 1.5em;
 }
 
 
 /* MEDIA-QUERIES */
 /* To fit on Ipads and Tablets */
 @media(min-width: 576px) {
-    header, #game,
+    header, footer, #game,
     #register {
         width: 75%;
     }
@@ -203,7 +210,7 @@ footer {
 }
 /* To fit on small screens, laptops  */
 @media (min-width: 768px) {
-    header, #game,
+    header, footer, #game,
     #register {
         width: 65%;
     }
@@ -211,7 +218,7 @@ footer {
 
 /* To fit desktop and large screens */
 @media (min-width: 992px) {
-    header, #game,
+    header, footer, #game,
     #register {
         width: 55%;
     }
@@ -222,7 +229,7 @@ footer {
 
 /* To fit extra large screens, TV */
 @media (min-width: 1480px) {
-    header, #game,
+    header, footer, #game,
     #register {
         width: 40%;
     }
