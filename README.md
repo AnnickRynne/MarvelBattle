@@ -162,8 +162,19 @@ It contains just a copyright for now.
       - WAVE Evalutation Tool: Used when testing accessibility
 
 # TESTING
-I tested my JavasCript code in JS Hint. It came back with a few 
+I tested my JavasCript code in JS Hint: I've fixed all the warnings
+![ ](docs/jshint.png)
+
+[W3C Markup HTML Validator: 0 errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fannickrynne.github.io%2FMarvelBattle%2F)
+
+In HTML, I had to use a button tag instead of a div tag for my START button, to be compatible with the 'submit' type.
+
+[w3C CSS Validator: 0 errors]()
+
+The website was successfully tested on Chrome, Microsoft Edge, Firefox and Safari. It works fine and his fully responsive on 2 mobile phones (Lenovo P2a42 V7.0 and Poco MIUI 12, a DELL laptop and an Ipad Pro 10.5". 
+
 # ACCESSIBILITY
+I
 ![ ](docs/wave.png)
 
 # DEPLOYMENT
