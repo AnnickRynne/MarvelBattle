@@ -86,17 +86,28 @@ I kept the design very simple as it is a simple game, almost intuitive: Like all
 
 ## Header
 
-## Rules of the Game
+![ ](docs/header.png)
 
-## Section 1 - Buttons
 
-## Section 2 - Choice of weapon
+## Section 1: Register
+![ ](docs/register.png)
 
-## Section 3 - Result
 
-## Section 4 - Score Board
+## Section 2: Game
+![ ](docs/game.png)
+![ ](docs/playing.png)
+
+# Div 1 - Buttons
+
+# Div 2 - Choice of weapon
+
+# Div 3 - Result
+
+# Div 4 - Score Board
+
 
 ## Footer
+
 
 ## Future features
 
