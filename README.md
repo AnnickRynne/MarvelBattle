@@ -101,25 +101,44 @@ At first, I'd named the game 'Avengers Battle', but was pointed out that Loki wa
 ![ ](docs/alert.png)
 
 
+
 ## Section 2: Game
 
-![ ](docs/playing.png)
+![ ](docs/game.png)
+<br>
 
-# Div 1 - Controls
+# Div 1 - Rules
+The rules consists of 2 paragraphs (see above image), in EXO font:
+- The first paragraph explains the theme of the game, why Loki, Thor and Hulk were chosen and what they fight with (to understand the weapons below).
+- The second paragraph explains who you're playing against (R.A.M. IS a computer) and how it works.
+
+# Div 2 - Controls
+The player selects a weapon of his choice: the hammer for Thor, the fist for Hulk, the dagger for Loki. An orange circle appears when they go over a button (image in div 4).
+
 ![ ](docs/controls.png)
 
-# Div 2 - Choice of weapon
-![ ](docs/.png)
-# Div 3 - Result
+# Div 3 - Choice of weapon
+The choice of both players is printed below, once the player has clicked on a weapon (see image in div 4 below).
+
+# Div 4 - Result
+The result display the name registered by the player and whether he/she wins, loses, or it's a draw.
+
 ![ ](docs/result.png)
-# Div 4 - Score Board
+
+# Div 5 - Score Board
+This final div of the game section displays the score for the player and R.A.M.
+
 ![ ](docs/scoreboard.png)
 
 ## Footer
+It contains just a copyright for now.
 ![ ](docs/footer.png)
 
 ## Future features
-
+- Dramatic sound effects would be fun to add to this game, when the player wins/loses, or even when you click on START
+- More heroes or bad guys could be added to the game (like in The Big Bang Theory, Sheldon's idea of a new game: Rock Paper Scissors Lizard Spock). The game should evolve with the Avengers and other Marvel series/movies.
+- More graphics could be added too
+- There's currently no limit to the game: a 'game over' could be added after a certain score is reached or a certain number of rounds
 <br>
 
 # TECHNOLOGIES USED
@@ -129,19 +148,21 @@ At first, I'd named the game 'Avengers Battle', but was pointed out that Loki wa
 - JAVASCRIPT
 
 ## Frameworks
-   - Google Fonts: 
-   - Git: Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
-   - GitHub: Used to store the projects code after being pushed from Git
+      - Google Fonts: Imported Orbitron and EXO (See Design: Typography)
+      - Font Awesome: Used the copyright icon in the footer
+      - Git: Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
+      - GitHub: Used to store the projects code after being pushed from Git
 
 ## Programmes and tools
-   - Photoshop: used to resize images
-   - Balsamiq: Used to create the wireframes during the design process
-   - Chrome extensions: 
+      - Photoshop: used to create the background cover image and resize button images, using layers
+      - Paint: used for the screenshots in DOCS
+      - Balsamiq: Used to create the wireframes during the design process
+      - Chrome extensions: 
       - Fonts Ninja, Eye Dropper, Window Resizer, Dimensions, Image Size Info: Used when doing research on fonts, colors and images
       - WAVE Evalutation Tool: Used when testing accessibility
 
 # TESTING
-
+I tested my JavasCript code in JS Hint. It came back with a few 
 # ACCESSIBILITY
 ![ ](docs/wave.png)
 
